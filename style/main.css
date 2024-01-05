@@ -23,7 +23,8 @@
 
 /* ------ Principal ------ */
 body {
-    background: gray;
+    /* background-image: url(../images/bg-pattern-top-mobile.svg); */
+    background:var(--white);
     font-family: var(--font-principal);
     font-size: var(--font-size);
     font-weight: var(--font-r-w);
@@ -42,7 +43,6 @@ body {
     background: var(--white);
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start; */
     padding: 0 24px;
 }
 
@@ -78,7 +78,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin-bottom: 17px; */
 }
 
 .star li:not(:last-child) {
@@ -97,6 +96,57 @@ body {
     color: var(--very-dark-magenta);
     font-weight: var(--font-b-w);
 }
+
+/* ------ Card ------ */
+.card {
+    background: var(--very-dark-magenta);
+    border-radius: 10px;
+    height: 248px;
+    width: 350px;
+    color: var(--light-grayish-magenta);
+    font-weight: var(--font-m-w);
+    display: flex;
+    flex-direction: column;
+}
+
+.first {
+    margin-top: 50px;
+}
+
+.second {
+    margin-top: 16px;
+}
+
+.third {
+    margin-top: 16px;
+    margin-bottom: 100px;
+}
+
+.card img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 38px 0 0 30px;
+}
+
+.card h2 {
+    color: var(--white);
+    margin: 43px 95px;
+    position: absolute;
+}
+
+.card h3 {
+    color: var(--soft-pink);
+    position: absolute;
+    margin: 64px 96px;
+}
+
+.card p {
+    font-size: 17px;
+    margin: 30px 36px;
+    line-height: 22px;
+}
+
 /* -------- Attribution -------- */
 .attribution {
     position: fixed;
