@@ -23,8 +23,10 @@
 
 /* ------ Principal ------ */
 body {
-    /* background-image: url(../images/bg-pattern-top-mobile.svg); */
     background:var(--white);
+    background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
+    background-position: 50% 0%, 50% 100%;
+    background-repeat: no-repeat;
     font-family: var(--font-principal);
     font-size: var(--font-size);
     font-weight: var(--font-r-w);
@@ -33,14 +35,15 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
+    z-index: -1;
 }
 
 /* ------ Conteúdo ------ */
 .container {
     height: 1530px;
     width: 351px;
-    background: var(--white);
+    /* background: var(--white); */
     display: flex;
     flex-direction: column;
     padding: 0 24px;
