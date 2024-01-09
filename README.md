@@ -27,7 +27,7 @@ Esta é uma solução do [social-proof-section-master](https://www.frontendmento
 
 ### Captura de tela (Screenshot)
 
-![Desktop and Mobile](./...)
+![Desktop and Mobile](./09-social-proof-section-master.png)
 
 ## Meu Processo (My process)
 
@@ -36,7 +36,6 @@ Esta é uma solução do [social-proof-section-master](https://www.frontendmento
 - Semantic HTML5 markup
 - CSS propriedades personalizadas (CSS custom properties)
 - CSS flex
-- CSS hover
 - CSS Responsivo
 - Esquema de cores (Color Schemes)
 
@@ -45,14 +44,12 @@ Esta é uma solução do [social-proof-section-master](https://www.frontendmento
 Eu gostaria de recapitular algumas das partes principais de aprendizagens deste projeto:
 
 - Utilizar o CSS flex para organizar elementos relacionados em uma página da web.
-- Utilização do efeito Hover no objeto.
 - Compreender como usar efetivamente variáveis CSS com cores HSL.
 - Implementação do media queries para design responsivo no projeto.
 
 "I would like to recap some of the key learnings from this project, which include:
 
 - Using CSS flex to organize related elements on a webpage.
-- Using the Hover effect on the object.
 - Understanding how to effectively use CSS variables with HSL colors.
 - Implementing media queries for responsive design in the project."
 
